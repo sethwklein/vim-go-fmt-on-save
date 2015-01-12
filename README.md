@@ -6,7 +6,7 @@ Just the parts of [vim-go][v] that run [goimports][i] on save.
 
 # Installation
 
-* If you wish to use it, install [goimports][i].
+* If you wish to use [goimports][i], install it.
 * Clone this repository and copy its contents into `~/.vim`. That should
     put files in `~/.vim/{ftdetect,plugin,autoload/go}`.
 * If goimports is slow for you (likely if you don't have an SSD), you may
@@ -26,4 +26,5 @@ from -1 to 1.
 
 # Rationale
 
-I like my tools minimal and my plugins small and specific to one feature.
+This may actually have been easier than figuring out how to turn off all
+the things in vim-go that I don't want (yet!)
