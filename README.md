@@ -4,6 +4,11 @@ Just the parts of [vim-go][v] that run [goimports][i] on save.
 
 [v]: https://github.com/fatih/vim-go
 
+# Warning
+
+This will cause saving to blow away the redo list. Don't expect to be
+able to undo a bunch of times, save, and redo back to where you started.
+
 # Installation
 
 * If you wish to use [goimports][i], install it.
